@@ -10,4 +10,5 @@
     if(mysqli_connect_errno() ){
         die("Conexao falhou: " . mysqli_connect_errno()); 
     }
+    
 ?>
