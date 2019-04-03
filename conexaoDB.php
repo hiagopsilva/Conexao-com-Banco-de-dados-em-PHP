@@ -9,5 +9,7 @@
     //Passo 2 - TESTAR CONEXAO
     if(mysqli_connect_errno() ){
         die("Conexao falhou: " . mysqli_connect_errno());
+
+        
     }
 ?>
